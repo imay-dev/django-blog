@@ -7,34 +7,44 @@
 
 To run locally, it's recommended to do as follows:
 
-###
-#####. Create a Python >= 3.6 virtualenv
+##
+##### Create a Python >= 3.6 virtualenv
 
 ###
-#####. Install dependencies:
-    pip install -r requirements.txt
+- Install dependencies:
+```
+pip install -r requirements.txt
+``` 
 
 ###
-#####. Create .env file using .env.example file
+- Create .env file using .env.example file
 
 ###
-#####. Fill .env file variables
+- Fill .env file variables
 
 ###
-#####. Make Migrations from existing Models:
-    python src/manage.py makemigrations
-        
+- Make Migrations from existing Models:
+```
+python src/manage.py makemigrations
+```        
+
 ###
-#####. Run Migrations:
-    python src/manage.py migrate
+- Run Migrations:
+```
+python src/manage.py migrate
+```
     
 ###
-#####. Create a Superuser:
-    python src/manage.py createsuperuser
+- Create a Superuser:
+```
+python src/manage.py createsuperuser
+```
     
 ###
-#####. Run project on localhost:
-    python src/manage.py runserver
+- Run project on localhost:
+```
+python src/manage.py runserver
+```
     
 ###
-#####. Change Database Settings in settings.py if necessary
+- Change Database Settings in settings.py if necessary
