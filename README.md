@@ -6,11 +6,14 @@
 ](https://www.packtpub.com/eu/web-development/django-3-by-example-third-edition)
 ##
 
-###
-##### To run locally, it's recommended to do as follows:
+
+##### Requirements
+- Python >= 3.6 virtualenv
+- PostgreSQL >= 9.5
+
 
 ###
-- Create a Python >= 3.6 virtualenv
+##### To run locally, it's recommended to do as follows:
 
 ####
 - Install dependencies:
