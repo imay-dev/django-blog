@@ -63,7 +63,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.' + env('DATABASE_TYPE'),
         'NAME': env('DATABASE_NAME'),
         'USER': env('DATABASE_USERNAME'),
-        'PASSWORD': env('DB_PASSWORD')
+        'PASSWORD': env('DATABASE_PASSWORD')
     }
 }
 
